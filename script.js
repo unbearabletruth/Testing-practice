@@ -12,4 +12,27 @@ function reverseString(string){
     return newString;
 }
 
-module.exports = {capitalize, reverseString};
+class Calculator {
+    constructor(x, y){
+        this.x = x;
+        this.y = y;
+    }
+
+    add(){
+        return this.x + this.y;
+    }
+
+    substract(){
+        return this.x - this.y;
+    }
+
+    multiply(){
+        return this.x * this.y;
+    }
+
+    divide(){
+        return this.x / this.y;
+    }
+}
+
+module.exports = {capitalize, reverseString, Calculator};
