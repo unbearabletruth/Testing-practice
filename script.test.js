@@ -1,5 +1,5 @@
-const sum = require('./script');
+const capitalize = require('./script');
 
-test('adds 1 + 2 to equal 3', () => {
-  expect(sum(1, 2)).toBe(3);
+test("string is capitalized", () => {
+  expect(capitalize("hey")).toBe("Hey");
 });
